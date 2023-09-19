@@ -1,7 +1,7 @@
 .header {
     position: fixed;
     width: 100%;
-    background-color: rgba(123, 122, 122, 0.3);
+    background-color: var(--color-tertiary);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     z-index: 9999;
 }
@@ -17,7 +17,9 @@
 }
 
 .nav--menu li {
+    display: flex;
     padding: 0 20px;
+    align-items: center;
 }
 
 .nav--menu .nav--link {

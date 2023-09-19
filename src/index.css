@@ -47,5 +47,8 @@ button:hover {
 	opacity: 0.9;
 }
 h1{
-	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	color: var(--color-white);
+
 }
