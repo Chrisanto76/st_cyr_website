@@ -1,0 +1,29 @@
+.amazing--container {
+    display: flex;
+    gap: 5%;
+}
+
+.amazing--carousel {
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+.amazing--carousel img {
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-dots li.slick-active button:before {
+    color: var(--color-primary) !important
+}
+
+.amazing--content {
+    width: 30%;
+}
+
+.amazing--content p {
+    padding: 20px 0;
+}

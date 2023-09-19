@@ -26,8 +26,18 @@ a {
 	text-decoration: none;
 }
 
+h3{
+	color: var(--color-tertiary);
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.section{
+	padding: 70px 0;
+}
+
 .container {
-	max-width: auto	;
+	max-width: 1310px;
 	margin: 0 auto;
 	padding: 0 50px;
 }
@@ -58,6 +68,17 @@ button:hover {
 
 .heading--primary span {
 	font-weight: 700;
+}
+
+.heading--secondary {
+	font-size: 28px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 1.1;
+}
+
+.heading--secondary span {
+	font-weight: 600;
 }
 
 .special--word {
