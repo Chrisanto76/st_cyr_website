@@ -8,9 +8,9 @@
 }
 
 :root{
-	--color-primary: #2e55e2;
+	--color-primary: #6578bc;
 	--color-secondary: #48f0eb;
-	--color-tertiary: #2c7cc7;
+	--color-tertiary: #2b547a;
 	--color-white: #fff;
 }
 
@@ -27,7 +27,7 @@ a {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: auto	;
 	margin: 0 auto;
 	padding: 0 50px;
 }
@@ -46,10 +46,35 @@ button {
 button:hover {
 	opacity: 0.9;
 }
-h1{
-	font-family: 'pacifico', cursive;
-	font-size: 40px;
-	font-weight: 400;
-	color: var(--color-white);
 
+.heading--primary {
+	color: var(--color-white);
+	font-size: 60px;
+	font-weight: 300;
+	text-transform: capitalize;
+	line-height: 1.1;
+	padding-bottom: 10px;
 }
+
+.heading--primary span {
+	font-weight: 700;
+}
+
+.special--word {
+	color: var(--color-white);
+	font-weight: 700;
+}
+
+.text--white {
+	color: var(--color-white);
+}
+
+@media  screen and (max-width: 768px) {
+	.container {
+		padding: 0 20px;
+	}
+	.heading--primary {
+		font-size: 45px;
+	}
+}
+	
