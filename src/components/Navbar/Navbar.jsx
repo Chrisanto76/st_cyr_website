@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './Navbar.css';
 
 const Navbar = () => {
+	const [click, setClick] = useState(false);
+
 	return (
 		<div className="header">
 			<div className="container">
