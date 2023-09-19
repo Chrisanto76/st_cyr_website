@@ -10,7 +10,7 @@
 :root{
 	--color-primary: #2e55e2;
 	--color-secondary: #48f0eb;
-	--color-tertiary: #474545;
+	--color-tertiary: #2c7cc7;
 	--color-white: #fff;
 }
 
@@ -47,6 +47,7 @@ button:hover {
 	opacity: 0.9;
 }
 h1{
+	font-family: 'pacifico', cursive;
 	font-size: 40px;
 	font-weight: 400;
 	color: var(--color-white);
