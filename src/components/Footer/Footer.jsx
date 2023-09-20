@@ -13,7 +13,7 @@ const Footer = () => {
 						<p>6 Pl. Bienvenüe</p>
 						<p>75015 Paris</p>
 						<p>01 42 93 26 39</p>
-						<Link to="#" className="text--regular">
+						<Link to="#" className="text--white">
 							example@mail.com
 						</Link>
 					</div>
@@ -22,10 +22,7 @@ const Footer = () => {
 						<p> 8 Pl. du 18 Juin 1940</p>
 						<p>75006 Paris</p>
 						<p>01 45 48 99 34</p>
-						<Link
-							to="https://www.cafemontparnasse.fr/"
-							className="text--regular"
-						>
+						<Link to="https://www.cafemontparnasse.fr/" className="text--white">
 							cafemontparnasse.fr
 						</Link>
 					</div>
@@ -34,7 +31,7 @@ const Footer = () => {
 						<p>147 Av. de Villiers</p>
 						<p>75017 Paris</p>
 						<p>01 45 79 80 42</p>
-						<Link to="#" className="text--regular">
+						<Link to="#" className="text--white">
 							example@mail.com
 						</Link>
 					</div>
@@ -43,7 +40,7 @@ const Footer = () => {
 						<p>147 Av. de Villiers</p>
 						<p>75017 Paris</p>
 						<p>01 45 79 80 42</p>
-						<Link to="#" className="text--regular">
+						<Link to="#" className="text--white">
 							example@mail.com
 						</Link>
 					</div>
