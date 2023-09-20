@@ -1,6 +1,7 @@
 .footer {
     background-color: var(--color-tertiary);
     color: var(--color-white);
+    padding: 35px 0;
 }
 
 .footer h3 {
