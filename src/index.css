@@ -136,6 +136,10 @@ blockquote {
 	color: var(--color-white);
 }
 
+.text--regular {
+	color: var(--color-tertiary);
+}
+
 @media  screen and (max-width: 768px) {
 	.container {
 		padding: 0 20px;
