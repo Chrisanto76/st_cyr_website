@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './AmazingMeal.css';
 
-import image1 from '../../../assets/hamburger.jpeg';
-import image2 from '../../../assets/cheese.jpeg';
+import image1 from '../../../assets/pasta.jpeg';
+import image2 from '../../../assets/cheese.jpg';
 import image3 from '../../../assets/coffee.jpg';
 import image4 from '../../../assets/pizza.jpeg';
 import image5 from '../../../assets/wine.jpeg';
@@ -77,7 +77,6 @@ const AmazingMeal = () => {
 						<div className="amazing-card-content">
 							<div className="amazing-card-title">
 								<h3 className="heading--tertiary">
-									<PiCheckFatBold size={20} style={{ color: '#c3512f' }} />
 									Les meilleurs <span>produits</span>
 								</h3>
 
@@ -94,8 +93,7 @@ const AmazingMeal = () => {
 						<div className="amazing-card-content">
 							<div className="amazing-card-title">
 								<h3 className="heading--tertiary">
-									<PiCheckFatBold size={20} style={{ color: '#c3512f' }} />
-									Les meilleurs <span>produits</span>
+									La campagne à <span>Paris</span>
 								</h3>
 
 								<p>

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pacifico&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,300&display=swap');
 
 * {
 	margin: 0;
@@ -32,6 +31,19 @@ h3{
 	font-weight: 500;
 }
 
+h4, p, label {
+	color: var(--color-tertiary);
+	font-weight: 400;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+p, label {
+	font-size: 13px;
+}
+
 .section{
 	padding: 70px 0;
 }
@@ -57,6 +69,19 @@ button:hover {
 	opacity: 0.9;
 }
 
+.ampersand {
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	color: var(--color-primary);
+}
+
+
+blockquote {
+	color: var(--color-tertiary);
+	border-left: 7px solid var(--color-primary);;
+	padding-left: 20px;	
+}
+
 .heading--primary {
 	color: var(--color-white);
 	font-size: 60px;
@@ -79,6 +104,17 @@ button:hover {
 
 .heading--secondary span {
 	font-weight: 600;
+}
+
+.heading--tertiary {
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.heading--tertiary span {
+	font-weight: 700;
+	color: var(--color-primary);
 }
 
 .special--word {

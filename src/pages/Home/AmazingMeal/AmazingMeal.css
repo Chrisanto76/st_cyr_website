@@ -27,3 +27,66 @@
 .amazing--content p {
     padding: 20px 0;
 }
+
+.amazing-card-container{
+    display: flex;
+    gap: 5%;
+    padding-top: 50px;
+}
+
+.amazing-card {
+    width: 40%;
+}
+
+.amazing-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.amazing-card-title {
+    align-items: center;
+    gap: 10px;
+}
+
+.amazing-card-content p {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .amazing--container {
+        flex-direction: column;
+    }
+
+    .amazing--carousel {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .amazing--carousel img {
+        height: 50vh;
+    }
+
+    .amazing--content {
+        width: 100%;
+    }
+
+    .amazing-card-container {
+        flex-direction: column;
+    }
+
+    .amazing-card {
+        width: 100%;
+    }
+
+    .amazing-card-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .amazing-card-left {
+        margin-bottom: 20px;
+    }
+
+}
+
