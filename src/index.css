@@ -81,7 +81,14 @@ blockquote {
 	border-left: 7px solid var(--color-primary);
 	padding-left: 20px;	
 }
-
+ .heading--logo {
+	font-family: 'Pacifico', cursive;
+	font-style: oblique;
+	font-size: 32px;
+	color: var(--color-white);
+	padding: 9px 10px;
+	text-shadow: 2px 2px 2px var(--color-tertiary);
+ }
 .heading--primary {
 	color: var(--color-white);
 	font-size: 60px;

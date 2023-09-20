@@ -14,12 +14,13 @@ const Navbar = () => {
 			<div className="container">
 				<div className="nav--bar">
 					<Link to="/" className="logo">
-						<img
+						{/* <img
 							src="./src/assets/logo.png"
 							alt="logo"
 							height={50}
 							width={50}
-						/>
+						/> */}
+						<h1 className="heading--logo">le st cyr</h1>
 					</Link>
 					<ul className={click ? 'nav--menu active' : 'nav--menu'}>
 						<li onClick={handleClick}>
