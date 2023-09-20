@@ -29,6 +29,7 @@ const MenuOfTheDay = () => {
 				</h1>
 				{menuData.map((data, i) => (
 					<ListItem
+						key={i}
 						title={data.title}
 						description={data.description}
 						price={data.price}

@@ -58,8 +58,9 @@ const LunchTime = () => {
 
 				<div className="grid--container">
 					<div>
-						{menuDataLeft.map((item) => (
+						{menuDataLeft.map((item, i) => (
 							<ListItem
+								key={i}
 								title={item.title}
 								description={item.description}
 								price={item.price}
@@ -67,8 +68,9 @@ const LunchTime = () => {
 						))}
 					</div>
 					<div>
-						{menuDataRight.map((item) => (
+						{menuDataRight.map((item, i) => (
 							<ListItem
+								key={i}
 								title={item.title}
 								description={item.description}
 								price={item.price}

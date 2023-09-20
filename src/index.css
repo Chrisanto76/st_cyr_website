@@ -16,7 +16,7 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	background-color: #e1e1e1;
+	background-color: #e7dfdf;
 }
  ul {
 	list-style: none;
@@ -86,7 +86,6 @@ blockquote {
 	font-style: oblique;
 	font-size: 32px;
 	color: var(--color-white);
-	padding: 9px 10px;
 	text-shadow: 2px 2px 2px var(--color-tertiary);
  }
 .heading--primary {
