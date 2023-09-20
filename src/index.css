@@ -49,7 +49,7 @@ p, label {
 }
 
 .container {
-	max-width: 1310px;
+	max-width: auto;
 	margin: 0 auto;
 	padding: 0 50px;
 }
