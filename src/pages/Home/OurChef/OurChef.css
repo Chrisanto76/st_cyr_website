@@ -1,0 +1,24 @@
+.chef--img {
+    background-image: url('../../../assets/chefpic.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    position: relative;
+}
+
+.chef--content {
+    position: absolute;
+    bottom: 5%;
+    padding: 10px;
+    background-color: var(--color-tertiary);
+    border-radius: 5px;
+}
+
+.team--info h4 {
+    text-transform: uppercase;
+}
+
+.team--info p {
+    padding-top: 10px;
+}
