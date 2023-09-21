@@ -52,7 +52,7 @@ const AmazingMeal = () => {
 							<span>Profitez...</span>
 						</h2>
 
-						<h4>On vous attends !</h4>
+						<h4>On vous attend !</h4>
 
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
@@ -61,11 +61,19 @@ const AmazingMeal = () => {
 							<br />
 							<br />
 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Repudiandae expedita neque eligendi repellendus impedit laborum.
+							Necessitatibus, asperiores facere. Corporis cum ducimus officiis
+							id, voluptate ex. Corrupti voluptatum, laboriosam autem qui
+							quisquam doloremque a accusamus suscipit ipsa cum perspiciatis
+							optio reiciendis. Tenetur laudantium excepturi, accusantium,
+							commodi doloribus aspernatur et facilis, eius exercitationem rerum
+							saepe unde vero id quas?
 						</p>
 
 						<blockquote>
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias.
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+							aspernatur facilis, et ullam at, sunt eaque vitae mollitia
+							nesciunt nihil asperiores molestias deleniti repellat optio neque
+							hic nisi iste quam.
 						</blockquote>
 					</div>
 				</div>
