@@ -49,7 +49,9 @@ const Navbar = () => {
 							</NavLink>
 						</li>
 						<li onClick={handleClick}>
-							<button>Commandez</button>
+							<NavLink className="nav--link" to="/contact">
+								<button>reservez</button>
+							</NavLink>
 						</li>
 					</ul>
 
