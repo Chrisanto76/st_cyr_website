@@ -1,4 +1,10 @@
 .our-data {
     text-align: center;
-    padding-bottom: 50px;
+    
+}
+
+.our-data p {
+    color: var(--color-primary);
+    font-size: 14px;
+    font-weight: 600;
 }
