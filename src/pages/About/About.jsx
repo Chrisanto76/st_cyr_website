@@ -1,6 +1,9 @@
 import React from 'react';
-import HeroImage from '../../components/HeroImage/HeroImage';
 import bgImage from '../../assets/floor.jpeg';
+import HeroImage from '../../components/HeroImage/HeroImage';
+import AboutInfo from './AboutInfo/AboutInfo';
+import OurData from './OurData/OurData';
+import Gallery from './Gallery/Gallery';
 
 const About = () => {
 	return (
@@ -8,12 +11,15 @@ const About = () => {
 			<HeroImage
 				bgimage={bgImage}
 				heading={[
-					'A propos de nous',
+					'A propos ',
 					<span className="ampersand"> & </span>,
 					<span>galerie de photos</span>,
 				]}
-				text="Look closer, and you can see where our passion for flavour begins."
+				text="Plats faits maison, cuisine de saison."
 			/>
+			<AboutInfo />
+			<OurData />
+			<Gallery />
 		</div>
 	);
 };

@@ -4,11 +4,11 @@ import Home from './pages/Home/Home';
 import Menu from './pages/Menu/Menu';
 import Delivery from './pages/Delivery/Delivery';
 import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
 import './index.css';
 
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import DeliveryInfo from './pages/Delivery/DeliveryInfo/DeliveryInfo';
 
 function App() {
 	return (
@@ -19,6 +19,7 @@ function App() {
 				<Route path="/menu" element={<Menu />} />
 				<Route path="/delivery" element={<Delivery />} />
 				<Route path="/about" element={<About />} />
+				<Route path="/contact" element={<Contact />} />
 			</Routes>
 			<Footer />
 		</>

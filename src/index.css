@@ -138,6 +138,11 @@ blockquote {
 	font-weight: 700;
 }
 
+.special--word2 {
+	color: var(--color-primary);
+	font-weight: 700;
+}
+
 .text--white {
 	color: var(--color-white);
 }
