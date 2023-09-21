@@ -40,6 +40,26 @@ const menuDataRight = [
 		description: 'grilled chicken breast with veggies',
 		price: 13,
 	},
+	{
+		title: 'American Pancakes',
+		description: 'with chocolate  sauce or maple syrup, honey and cream',
+		price: 21,
+	},
+	{
+		title: 'Low Carb CoffeeSelection',
+		description: 'grilled chicken breast with veggies',
+		price: 13,
+	},
+	{
+		title: 'American Pancakes',
+		description: 'with chocolate  sauce or maple syrup, honey and cream',
+		price: 21,
+	},
+	{
+		title: 'Low Carb CoffeeSelection',
+		description: 'grilled chicken breast with veggies',
+		price: 13,
+	},
 ];
 
 const CoffeeSelection = () => {
