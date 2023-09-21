@@ -25,7 +25,7 @@ const Navbar = () => {
 					<ul className={click ? 'nav--menu active' : 'nav--menu'}>
 						<li onClick={handleClick}>
 							<NavLink className="nav--link" to="/">
-								hello
+								Accueil
 							</NavLink>
 						</li>
 						<li onClick={handleClick}>
