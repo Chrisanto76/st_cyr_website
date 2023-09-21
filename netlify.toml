@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"  # La commande pour construire l'application
+  publish = "dist"  # Le dossier où se trouve le build
+
+[[redirects]]  # Exemple de redirection vers le point d'entrée de l'application React
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]  # Exemple d'en-tête pour gérer le cache des fichiers statiques
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
