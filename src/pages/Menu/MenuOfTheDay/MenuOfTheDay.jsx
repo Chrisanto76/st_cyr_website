@@ -2,12 +2,12 @@ import React from 'react';
 import ListItem from '../../../components/ListItem/ListItem';
 import './menuOfTheDay.css';
 
-import image1 from '../../../assets/burger.jpeg';
+import image1 from '../../../assets/pasta.jpeg';
 import image2 from '../../../assets/pizza.jpeg';
 
 const menuData = [
 	{
-		title: 'Burger',
+		title: 'pasta',
 		description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
 		price: '15€',
 		itemImage: image1,
