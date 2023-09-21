@@ -1,7 +1,7 @@
 import React from 'react';
-import './Contact.css';
 import HeroImage from '../../components/HeroImage/HeroImage';
 import bgImage from '../../assets/oldfashioned.jpeg';
+import ContactForm from './ContactForm/ContactForm';
 
 const Contact = () => {
 	return (
@@ -11,6 +11,7 @@ const Contact = () => {
 				heading={['Contactez ', <span>Nous</span>]}
 				text="Lorem ipsum dolor sit amet consectetur adipisicing elit."
 			/>
+			<ContactForm />
 		</div>
 	);
 };
