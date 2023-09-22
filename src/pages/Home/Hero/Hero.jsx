@@ -14,7 +14,7 @@ const Hero = () => {
 				</p>
 
 				<p className="text--white">
-					Réservez , ou appelez-nous au
+					Réservez au
 					<span className="special--word"> 01 45 79 80 42</span>
 				</p>
 			</div>
