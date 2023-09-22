@@ -160,4 +160,10 @@ blockquote {
 		font-size: 45px;
 	}
 }
-	
+
+@media (orientation: landscape) {
+	body {
+	  transform: rotate(90deg);
+	  transform-origin: center;
+	}
+  }
