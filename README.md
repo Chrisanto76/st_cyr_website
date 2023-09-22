@@ -1,6 +1,6 @@
 # st_cyr_website
 
-This is a eample website for the st-cyr cafe in paris 75017.
+This is a example website for the st-cyr cafe in paris 75017.
 
 Data base for mailing is deployed with formspree.
 
