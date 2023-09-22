@@ -161,9 +161,11 @@ blockquote {
 	}
 }
 
-@media (orientation: landscape) {
-	body {
-	  transform: rotate(90deg);
-	  transform-origin: center;
+@media (max-width: 767px) {
+	@media (orientation: landscape) {
+	  body {
+		transform: rotate(90deg);
+		transform-origin: center;
+	  }
 	}
   }
