@@ -1,6 +1,6 @@
 import React from 'react';
 import ListItem from '../../../components/ListItem/ListItem';
-import './menuOfTheDay.css';
+import './MenuOfTheDay.css';
 
 import image1 from '../../../assets/pasta.jpeg';
 import image2 from '../../../assets/pizza.jpeg';
