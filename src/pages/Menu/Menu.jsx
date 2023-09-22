@@ -12,7 +12,7 @@ const Menu = () => {
 		<div>
 			<HeroImage
 				bgimage={bgImage}
-				heading={['john ', <span>Menu</span>]}
+				heading={['Notre ', <span>Menu</span>]}
 				text="Plats faits maison, cuisine de saison."
 			/>
 			<MenuOfTheDay />
