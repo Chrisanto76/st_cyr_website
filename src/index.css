@@ -82,11 +82,10 @@ blockquote {
 	padding-left: 20px;	
 }
  .heading--logo {
-	font-family: 'Pacifico', cursive;
-	font-style: oblique;
-	font-size: 32px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 48px;
 	color: var(--color-white);
-	text-shadow: 2px 2px 2px var(--color-tertiary);
+	font-weight: 400;
  }
 .heading--primary {
 	color: var(--color-white);

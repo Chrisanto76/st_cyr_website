@@ -20,7 +20,7 @@ const Navbar = () => {
 							height={50}
 							width={50}
 						/> */}
-						<h1 className="heading--logo">le st cyr</h1>
+						<h1 className="heading--logo">Le Saint Cyr</h1>
 					</Link>
 					<ul className={click ? 'nav--menu active' : 'nav--menu'}>
 						<li onClick={handleClick}>
